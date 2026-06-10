@@ -1,0 +1,28 @@
+{
+    "instance_nodes": "5",
+    "minimal_distance": 7.0,
+    "secuence": {
+      "sequence": [
+        {
+          "id": 1,
+          "distance": 0
+        },
+        {
+          "id": 3,
+          "distance": 4
+        },
+        {
+          "id": 5,
+          "distance": 7
+        }
+      ],
+      "total_distance": 7.0
+    },
+    "Ts": 240,
+    "Tp": 43,
+    "energy": 180,
+    "processors": 2,
+    "eficency_score": 0.7,
+    "speedup_score": 5.6,
+    "consumption_score": 180
+  }
