@@ -2,16 +2,15 @@ package models
 
 //Resultados generales
 type Result struct {
-	Instance_Nodes    string  `json:"instance_nodes"`
-	Minimal_distante  float64 `json:"minimal_distance"`
-	Sequence          Path    `json:"secuence"`
-	Ts                float64 `json:"Ts"`
-	Tp                float64 `json:"Tp"`
-	Energy            float64 `json:"energy"`
-	Processors        int64   `json:"processors"`
-	Eficency_Score    float64 `json:"eficency_score"`
-	SpeedUp_Score     float64 `json:"speedup_score"`
-	Consumption_Score float64 `json:"consumption_score"`
+	Instance_Nodes string  `json:"instance_nodes"`
+	Sequence       Path    `json:"secuence"`
+	Ts             float64 `json:"Ts"`
+	Tp             float64 `json:"Tp"`
+	Tp_theo        float64 `json:"Tp_theo"`
+	Energy         float64 `json:"energy"`
+	Processors     int64   `json:"processors"`
+	Eficency_Score float64 `json:"eficency_score"`
+	SpeedUp_Score  float64 `json:"speedup_score"`
 }
 
 type Path struct {
