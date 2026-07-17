@@ -13,6 +13,27 @@
             "total_distance": 19.0
         },
         "Ts": 0.031,
+        "Tp": 0.031,
+        "Tp_theo": 0.031,
+        "energy": 0.0,
+        "processors": 1,
+        "eficency_score": 1.0,
+        "speedup_score": 1.0
+    },
+    {
+        "instance_nodes": "5",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0 },
+            { "id": 3, "distance": 4 },
+            { "id": 2, "distance": 4 },
+            { "id": 5, "distance": 3 },
+            { "id": 4, "distance": 6 },
+            { "id": 1, "distance": 2 }
+            ],
+            "total_distance": 19.0
+        },
+        "Ts": 0.031,
         "Tp": 0.103,
         "Tp_theo": 0.015,
         "energy": 0.0975,
@@ -166,6 +187,33 @@
             "total_distance": 133.0
         },
         "Ts": 19.888,
+        "Tp": 19.888,
+        "Tp_theo": 19.888,
+        "energy": 2.21,
+        "processors": 1,
+        "eficency_score": 0.526,
+        "speedup_score": 1.0
+    },
+    {
+        "instance_nodes": "11",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0 },
+            { "id": 9, "distance": 5 },
+            { "id": 2, "distance": 4 },
+            { "id": 10, "distance": 14 },
+            { "id": 3, "distance": 17 },
+            { "id": 6, "distance": 1 },
+            { "id": 4, "distance": 13 },
+            { "id": 7, "distance": 16 },
+            { "id": 8, "distance": 29 },
+            { "id": 11, "distance": 15 },
+            { "id": 5, "distance": 7 },
+            { "id": 1, "distance": 12 }
+            ],
+            "total_distance": 133.0
+        },
+        "Ts": 19.888,
         "Tp": 18.931,
         "Tp_theo": 9.944,
         "energy": 2.01822,
@@ -199,6 +247,169 @@
         "processors": 3,
         "eficency_score": 0.4,
         "speedup_score": 1.2
+    },
+    {
+        "instance_nodes": "11",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0 },
+            { "id": 9, "distance": 5 },
+            { "id": 2, "distance": 4 },
+            { "id": 10, "distance": 14 },
+            { "id": 3, "distance": 17 },
+            { "id": 6, "distance": 1 },
+            { "id": 4, "distance": 13 },
+            { "id": 7, "distance": 16 },
+            { "id": 8, "distance": 29 },
+            { "id": 11, "distance": 15 },
+            { "id": 5, "distance": 7 },
+            { "id": 1, "distance": 12 }
+            ],
+            "total_distance": 133.0
+        },
+        "Ts": 19.888,
+        "Tp": 13.416,
+        "Tp_theo": 4.972,
+        "energy": 1.145,
+        "processors": 4,
+        "eficency_score": 0.371,
+        "speedup_score": 1.483
+    },
+    {
+        "instance_nodes": "11",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0 },
+            { "id": 9, "distance": 5 },
+            { "id": 2, "distance": 4 },
+            { "id": 10, "distance": 14 },
+            { "id": 3, "distance": 17 },
+            { "id": 6, "distance": 1 },
+            { "id": 4, "distance": 13 },
+            { "id": 7, "distance": 16 },
+            { "id": 8, "distance": 29 },
+            { "id": 11, "distance": 15 },
+            { "id": 5, "distance": 7 },
+            { "id": 1, "distance": 12 }
+            ],
+            "total_distance": 133.0
+        },
+        "Ts": 19.888,
+        "Tp": 12.939,
+        "Tp_theo": 3.978,
+        "energy": 1.134,
+        "processors": 5,
+        "eficency_score": 0.307,
+        "speedup_score": 1.537
+    },
+    {
+        "instance_nodes": "11",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0 },
+            { "id": 9, "distance": 5 },
+            { "id": 2, "distance": 4 },
+            { "id": 10, "distance": 14 },
+            { "id": 3, "distance": 17 },
+            { "id": 6, "distance": 1 },
+            { "id": 4, "distance": 13 },
+            { "id": 7, "distance": 16 },
+            { "id": 8, "distance": 29 },
+            { "id": 11, "distance": 15 },
+            { "id": 5, "distance": 7 },
+            { "id": 1, "distance": 12 }
+            ],
+            "total_distance": 133.0
+        },
+        "Ts": 19.888,
+        "Tp": 13.351,
+        "Tp_theo": 3.315,
+        "energy": 1.141,
+        "processors": 6,
+        "eficency_score": 0.248,
+        "speedup_score": 1.490
+    },
+    {
+        "instance_nodes": "11",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0 },
+            { "id": 9, "distance": 5 },
+            { "id": 2, "distance": 4 },
+            { "id": 10, "distance": 14 },
+            { "id": 3, "distance": 17 },
+            { "id": 6, "distance": 1 },
+            { "id": 4, "distance": 13 },
+            { "id": 7, "distance": 16 },
+            { "id": 8, "distance": 29 },
+            { "id": 11, "distance": 15 },
+            { "id": 5, "distance": 7 },
+            { "id": 1, "distance": 12 }
+            ],
+            "total_distance": 133.0
+        },
+        "Ts": 19.888,
+        "Tp": 13.650,
+        "Tp_theo": 2.841,
+        "energy": 1.203,
+        "processors": 7,
+        "eficency_score": 0.208,
+        "speedup_score": 1.457
+    },
+    {
+        "instance_nodes": "11",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0 },
+            { "id": 9, "distance": 5 },
+            { "id": 2, "distance": 4 },
+            { "id": 10, "distance": 14 },
+            { "id": 3, "distance": 17 },
+            { "id": 6, "distance": 1 },
+            { "id": 4, "distance": 13 },
+            { "id": 7, "distance": 16 },
+            { "id": 8, "distance": 29 },
+            { "id": 11, "distance": 15 },
+            { "id": 5, "distance": 7 },
+            { "id": 1, "distance": 12 }
+            ],
+            "total_distance": 133.0
+        },
+        "Ts": 19.888,
+        "Tp": 14.142,
+        "Tp_theo": 2.486,
+        "energy": 1.233,
+        "processors": 8,
+        "eficency_score": 0.176,
+        "speedup_score": 1.407
+    },
+    {
+        "instance_nodes": "12",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0},
+            { "id": 10, "distance":47 },
+            { "id": 3, "distance": 206},
+            { "id": 5, "distance": 88 },
+            { "id": 11, "distance": 133 },
+            { "id": 7, "distance": 117},
+            { "id": 9, "distance": 67 },
+            { "id": 2, "distance": 229 },
+            { "id": 4, "distance": 180 },
+            { "id": 12, "distance": 198 },
+            { "id": 8, "distance": 108},
+            { "id": 6, "distance": 122 },
+            { "id": 1, "distance": 238 }
+            ],
+            "total_distance": 1733.0
+        },
+        "Ts": 11.797,
+        "Tp": 11.797,
+        "Tp_theo": 11.797,
+        "energy": 1.296,
+        "processors": 1,
+        "eficency_score": 1.0,
+        "speedup_score": 1.0
     },
     {
         "instance_nodes": "12",
@@ -283,6 +494,149 @@
         "processors": 4,
         "eficency_score": 0.358,
         "speedup_score": 1.444
+    },
+    {
+        "instance_nodes": "12",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0},
+            { "id": 10, "distance":47 },
+            { "id": 3, "distance": 206},
+            { "id": 5, "distance": 88 },
+            { "id": 11, "distance": 133 },
+            { "id": 7, "distance": 117},
+            { "id": 9, "distance": 67 },
+            { "id": 2, "distance": 229 },
+            { "id": 4, "distance": 180 },
+            { "id": 12, "distance": 198 },
+            { "id": 8, "distance": 108},
+            { "id": 6, "distance": 122 },
+            { "id": 1, "distance": 238 }
+            ],
+            "total_distance": 1733.0
+        },
+        "Ts": 11.797,
+        "Tp": 6.614,
+        "Tp_theo": 2.359,
+        "energy": 0.562,
+        "processors": 5,
+        "eficency_score": 0.357,
+        "speedup_score": 1.784
+    },
+    {
+        "instance_nodes": "12",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0},
+            { "id": 10, "distance":47 },
+            { "id": 3, "distance": 206},
+            { "id": 5, "distance": 88 },
+            { "id": 11, "distance": 133 },
+            { "id": 7, "distance": 117},
+            { "id": 9, "distance": 67 },
+            { "id": 2, "distance": 229 },
+            { "id": 4, "distance": 180 },
+            { "id": 12, "distance": 198 },
+            { "id": 8, "distance": 108},
+            { "id": 6, "distance": 122 },
+            { "id": 1, "distance": 238 }
+            ],
+            "total_distance": 1733.0
+        },
+        "Ts": 11.797,
+        "Tp": 6.687,
+        "Tp_theo": 1.966,
+        "energy": 0.615,
+        "processors": 6,
+        "eficency_score": 0.294,
+        "speedup_score": 1.764
+    },
+    {
+        "instance_nodes": "12",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0},
+            { "id": 10, "distance":47 },
+            { "id": 3, "distance": 206},
+            { "id": 5, "distance": 88 },
+            { "id": 11, "distance": 133 },
+            { "id": 7, "distance": 117},
+            { "id": 9, "distance": 67 },
+            { "id": 2, "distance": 229 },
+            { "id": 4, "distance": 180 },
+            { "id": 12, "distance": 198 },
+            { "id": 8, "distance": 108},
+            { "id": 6, "distance": 122 },
+            { "id": 1, "distance": 238 }
+            ],
+            "total_distance": 1733.0
+        },
+        "Ts": 11.797,
+        "Tp": 6.685,
+        "Tp_theo": 1.685,
+        "energy": 0.614,
+        "processors": 7,
+        "eficency_score": 0.247,
+        "speedup_score": 1.731
+    },
+    {
+        "instance_nodes": "12",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0},
+            { "id": 10, "distance":47 },
+            { "id": 3, "distance": 206},
+            { "id": 5, "distance": 88 },
+            { "id": 11, "distance": 133 },
+            { "id": 7, "distance": 117},
+            { "id": 9, "distance": 67 },
+            { "id": 2, "distance": 229 },
+            { "id": 4, "distance": 180 },
+            { "id": 12, "distance": 198 },
+            { "id": 8, "distance": 108},
+            { "id": 6, "distance": 122 },
+            { "id": 1, "distance": 238 }
+            ],
+            "total_distance": 1733.0
+        },
+        "Ts": 11.797,
+        "Tp": 6.932,
+        "Tp_theo": 1.475,
+        "energy": 0.615,
+        "processors": 8,
+        "eficency_score": 0.213,
+        "speedup_score": 1.702
+    },
+    {
+        "instance_nodes": "15",
+        "secuence": {
+            "sequence": [
+            { "id": 1, "distance": 0},
+            { "id": 13, "distance":23 },
+            { "id": 2, "distance": 11},
+            { "id": 15, "distance": 21 },
+            { "id": 9, "distance": 11 },
+            { "id": 5, "distance": 21},
+            { "id": 7, "distance": 23 },
+            { "id": 3, "distance": 23 },
+            { "id": 12, "distance": 21 },
+            { "id": 14, "distance": 11 },
+            { "id": 10, "distance": 23},
+            { "id": 8, "distance": 15},
+            { "id": 6, "distance": 23 },
+            { "id": 4, "distance": 15 },
+            { "id": 11, "distance": 21 },
+            { "id": 1, "distance": 29 }
+            ],
+            "total_distance": 291.0
+        },
+        "Ts": 6.957,
+        "Tp": 6.957,
+        "Tp_theo": 6957,
+        "energy": 0.447,
+        "processors": 1,
+        "eficency_score": 1.0,
+        "speedup_score": 1.0
     },
     {
         "instance_nodes": "15",
@@ -527,12 +881,12 @@
             "total_distance": 2085.0
         },
         "Ts": 15091.08,
-        "Tp": 11638.86,
-        "Tp_theo": 7545.54,
-        "energy": 1157.574,
-        "processors": 2,
-        "eficency_score": 0.648,
-        "speedup_score": 1.296
+        "Tp": 15091.08,
+        "Tp_theo": 15091.08,
+        "energy": 1589.55,
+        "processors": 1,
+        "eficency_score": 1,
+        "speedup_score": 1
     },
     {
         "instance_nodes": "17",
