@@ -191,7 +191,7 @@
         "Tp_theo": 19.888,
         "energy": 2.21,
         "processors": 1,
-        "eficency_score": 0.526,
+        "eficency_score": 1.0,
         "speedup_score": 1.0
     },
     {
