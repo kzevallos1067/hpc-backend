@@ -632,7 +632,7 @@
         },
         "Ts": 6.957,
         "Tp": 6.957,
-        "Tp_theo": 6957,
+        "Tp_theo": 6.957,
         "energy": 0.447,
         "processors": 1,
         "eficency_score": 1.0,
