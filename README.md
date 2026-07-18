@@ -7,9 +7,10 @@ Este proyecto ofrece una API desarrollada en **Go** utilizando **gorilla mux**.
 ## Requisitos previos
 
 1. Descargar la última versión del lenguage [Go](https://go.dev/dl/) según el sistema operativo que uses.
-2. Instalar y dar siguiente hasta el final.
-3. Añadir **%USERPROFILE%\go\bin** en la variable de entorno Path (en caso uses Windows).
-4. Ejecutar en la terminal el comando `go version`, si todo está correctamente instalado debería salir lo siguiente:
+2. Para la instalación en MacOS seguir las indicaciones de la página de [Go/install](https://go.dev/doc/install)
+3. Instalar y dar siguiente hasta el final.
+4. Añadir **%USERPROFILE%\go\bin** en la variable de entorno Path (en caso uses Windows).
+5. Ejecutar en la terminal el comando `go version`, si todo está correctamente instalado debería salir lo siguiente:
 ```bash
 
 go version go1.26.4 windows/amd64
